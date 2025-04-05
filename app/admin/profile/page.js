@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { User, Camera, ArrowLeft, Shield, Calendar, Mail, Phone, Building } from 'lucide-react';
 import AdminNavbar from '@/components/AdminNavbar';
+import Image from 'next/image';
 
 const AdminProfilePage = () => {
   const router = useRouter();
